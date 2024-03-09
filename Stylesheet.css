@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.nav-list, .list-image {
+    list-style: none;
+}
+
+/* Format mobile */
+
+@media screen and (max-width: 767px) {
+
+
+    .desktop-menu {
+        display: none;
+    }
+    .mobile-menu {
+        margin-top: 40px;
+    }
+    .hamburger-menu {
+        height: 1px;
+        width: 30px;
+        background-color: black;
+        margin: 5px;
+    }
+}
+
+/* Format desktop */
+
+@media screen and (min-width: 768px) {
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .nav-list, .list-image {
+        display: inline-block;
+        
+    }
+    .desktop-menu {
+        text-align: center;
+    }
+
+}
