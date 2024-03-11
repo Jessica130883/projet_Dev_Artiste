@@ -10,7 +10,23 @@ html, body {
 
 @media screen and (max-width: 767px) {
 
+    .nav-logo {
+        height: 100px;
+        width: 100px;
+    }
    
+    
+
+    .list-nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .list-image {
+        order: -1;
+        margin-bottom: 5px;
+    }
 }
 
 /* Format desktop */
