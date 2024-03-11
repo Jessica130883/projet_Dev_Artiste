@@ -26,6 +26,20 @@ html, body {
     .list-image {
         order: -1;
         margin-bottom: 5px;
+        margin: auto 0;
+    }
+
+    .bar1, .bar2, .bar3 {
+        height: 1px;
+        width: 30px;
+        background-color: black;
+        margin: 5px;
+    }
+
+    .burger {
+        position: fixed;
+        top: 25px;
+        left: 5px;
     }
 }
 
