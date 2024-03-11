@@ -10,35 +10,26 @@ html, body {
 
 @media screen and (max-width: 767px) {
 
-
-    .desktop-menu {
-        display: none;
-    }
-    .mobile-menu {
-        margin-top: 40px;
-    }
-    .hamburger-menu {
-        height: 1px;
-        width: 30px;
-        background-color: black;
-        margin: 5px;
-    }
+   
 }
 
 /* Format desktop */
 
 @media screen and (min-width: 768px) {
 
-    .mobile-menu {
-        display: none;
-    }
+   .nav-logo {
+    height: 200px;
+    width: 200px;
+   }
 
-    .nav-list, .list-image {
-        display: inline-block;
-        
-    }
-    .desktop-menu {
-        text-align: center;
-    }
+   .list-nav {
+    display: flex;
+    justify-content: center; /* Centrer les éléments de la liste */
+    align-items: center;
+   
+   }
+   .nav-link {
+    margin: 15px;
+   }
 
 }
