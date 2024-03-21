@@ -10,3 +10,4 @@ clickBurger.addEventListener('click', function() {
         menuMobile.style.display = 'none';
     }
 });
+
