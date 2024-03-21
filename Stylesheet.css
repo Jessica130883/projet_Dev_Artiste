@@ -29,39 +29,37 @@ html, body {
     transition: 0.4s;
 }
 
-.nav-logo {
-    /* Assure-toi que le logo a une largeur et une hauteur appropriées */
-    height: 150px;
-    width: 150px;
-    /* Place le logo en haut de la page */
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    
-  }
-
-  /* Ajuste la position de la navbar pour que les autres éléments apparaissent sous le logo */
   .nav-list {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centrage horizontal */
-    padding-top: 10px; /* Assure un espacement suffisant sous le logo */
+    align-items: center; 
+    padding-top: -50px;
   }
 
-  .first-link {
-    margin-top: 90px;
-  }
 
- 
+ .list-image {
+    display: none;
+ }
 
-  
+ .logo-mobile {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+
 }
 
 
 /* Format desktop */
 
 @media screen and (min-width: 769px) {
+
+    .logo-mobile {
+        display: none;
+    }
 
    .nav-logo {
     height: 200px;
@@ -70,7 +68,7 @@ html, body {
 
    .list-nav {
     display: flex;
-    justify-content: center; /* Centrer les éléments de la liste */
+    justify-content: center; 
     align-items: center;
    
    }
