@@ -58,6 +58,20 @@ html, body {
     
    }
 
+   /* Section EP */
+
+   .title-ep {
+    text-align: center;
+    margin-top: 30px;
+   }
+
+   .cover-ep {
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+   }
+
 }
 
 
