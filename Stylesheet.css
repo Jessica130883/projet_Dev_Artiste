@@ -73,16 +73,17 @@ html, body {
     border-radius: 10px;
     
    }
-   .container-epimage {
+   .container-ep {
     text-align: center;
    }
 
    .btn-ep {
-    margin-top: 40px;
+    margin-top: 60px;
     height: 40px;
     width: 90px;
     border: none;
     border-radius: 15px;
+   
    }
 }
 
