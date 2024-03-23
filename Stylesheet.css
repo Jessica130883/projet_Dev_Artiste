@@ -120,6 +120,26 @@ html, body {
 }
 }
 
+/* SECTION CLIP VIDEO */
+
+.container-video {
+    text-align: center;
+    margin-top: 40px;
+}
+.title-video {
+    margin-bottom: 30px;
+}
+.btn-video {
+    border: none;
+    margin-top: 30px;
+    height: 40px;
+    width: 150px;
+    border-radius: 15px;
+}
+.link-videos {
+    text-decoration: none;
+    color: black;
+}
 
 /* Format desktop */
 
