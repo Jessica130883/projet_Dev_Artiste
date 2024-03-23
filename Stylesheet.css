@@ -141,6 +141,13 @@ html, body {
     color: black;
 }
 
+/* SECTION CONCERTS*/
+
+.container-concerts {
+    text-align: center;
+    margin-top: 50px;
+}
+
 /* Format desktop */
 
 @media screen and (min-width: 769px) {
