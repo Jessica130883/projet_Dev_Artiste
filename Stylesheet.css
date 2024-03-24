@@ -153,6 +153,10 @@ html, body {
     text-align: center;
     margin-top: 40px;
 }
+.carousel-item {
+    height: 510px;
+    width: 600px;
+}
 
 /* Format desktop */
 
