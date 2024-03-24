@@ -185,6 +185,14 @@ html, body {
     margin: 15px;
    }
 
+   .banner-container {
+    background-image: url(images/Img_banner-desktop.jpg);
+    background-size: 100%;
+    height: 750px;
+    max-width: 100%;
+    
+   }
+
    
 
    
