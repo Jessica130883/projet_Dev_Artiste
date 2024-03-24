@@ -166,6 +166,10 @@ html, body {
 
 @media screen and (min-width: 769px) {
 
+    .desktop-menu {
+        height: 150px;
+    }
+
     .logo-mobile {
         display: none;
     }
