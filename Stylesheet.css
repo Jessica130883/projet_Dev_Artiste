@@ -158,6 +158,10 @@ html, body {
     width: 600px;
 }
 
+/* Formulaire newsletter */ 
+.container-newsletter {
+    text-align: center;
+}
 /* Format desktop */
 
 @media screen and (min-width: 769px) {
