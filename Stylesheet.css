@@ -256,6 +256,25 @@ html, body {
     text-decoration: none;
     color: black;
    }
+
+   /* SECTION CLIP VIDÉO */
+
+   .container-video {
+    margin-top: 90px;
+   }
+   .video-yt {
+    margin-bottom: 50px;
+   }
+   .btn-video {
+    display: block;
+    margin: auto;
+   }
+
+   /* SECTION CONCERTS */
+
+   .container-concerts {
+    margin-top: 90px;
+   }
    
 
 }
