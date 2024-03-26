@@ -149,15 +149,17 @@ html, body {
 }
 
 /* SECTION GALLERIE */
-.container-galerie {
-    text-align: center;
-    margin-top: 40px;
-}
-.carousel-item {
-    height: 510px;
-    width: 600px;
-}
 
+.title-galerie {
+   text-align: center;
+   margin-bottom: 30px;
+   
+}
+.carousel-img {
+    width: 500px; 
+    height: auto; 
+  }
+  
 /* Formulaire newsletter */ 
 .container-newsletter {
     text-align: center;
@@ -275,6 +277,15 @@ html, body {
    .container-concerts {
     margin-top: 90px;
    }
-   
+
+   /* SECTION GALERIE*/
+
+   .container-galerie {
+    margin-top: 60px;
+   }
+   .carousel-item {
+    margin-left: auto;
+    margin-right: auto;
+   }
 
 }
